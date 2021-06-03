@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="divheader"><img class="logo" src="images\logoheader.png"></div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark warning-color">
+      <a class="navbar-brand" href="#">BurguerCity</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Hace Tu Pedido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container formulariopedido">
+     <div class="row">
+     <form class="text-center p-5 col-12" onsubmit="myfunction()">
+     <p class="hacetupedido">Hace Tu Pedido</p>
+     <input name ="nombre" type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre" required>
+     <input name ="telefono" type="tel" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Telefono" required>
+     <input name ="direccion" type="Direction" id="defaultContactFormDirection" class="form-control mb-4" placeholder="Direccion" required>
+     <input name ="mail" type="mail" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Usuario@example.com"required>
+     <div class="checkboxes1 row">
+     <div class="custom-control custom-checkbox col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+      <input type="checkbox" class="custom-control-input" id="checkbox">
+      <label class="custom-control-label chkb" for="checkbox">NewYork $250</label>
+     </div>
+     <div class="custom-control custom-checkbox col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+      <input type="checkbox" class="custom-control-input" id="checkbox1">
+      <label class="custom-control-label chkb" for="checkbox1">CDMX $250</label>
+     </div>
+     <div class="custom-control custom-checkbox col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+      <input type="checkbox" class="custom-control-input" id="checkbox2">
+      <label class="custom-control-label chkb" for="checkbox2">BSAS $230</label>
+     </div>
+     <div class="custom-control custom-checkbox col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+      <input type="checkbox" class="custom-control-input" id="checkbox3">
+      <label class="custom-control-label chkb" for="checkbox3">ROSARIO $280</label>
+     </div>
+      <div class="custom-control custom-checkbox col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3"> 
+      <input type="checkbox" class="custom-control-input" id="checkbox4">
+      <label class="custom-control-label chkb" for="checkbox4">LIMA $260</label>
+     </div>
+     <div class="custom-control custom-checkbox col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+      <input type="checkbox" class="custom-control-input" id="checkbox5">
+      <label class="custom-control-label chkb" for="checkbox5">TEXAS $350</label>
+     </div>
+      <div class="custom-control custom-checkbox col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+      <input type="checkbox" class="custom-control-input" id="checkbox6">
+      <label class="custom-control-label chkb" for="checkbox6">QUITO $180</label>
+     </div>
+     <div class="custom-control custom-checkbox col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+      <input type="checkbox" class="custom-control-input" id="checkbox7">
+      <label class="custom-control-label chkb" for="checkbox7">PARIS $190</label>
+     </div>
+    </div>
+     <div class="form-group">
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Detalles Sobre El Pedido"></textarea>
+     </div>
+     <button class="btn warning-color btn-block" type="submit">Enviar Pedido</button>
+     </form>
+    </div>
+    </div>
+      <footer class="page-footer font-small warning-color pt-4">
+        <div class="container">
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/pnahuelcruz">
+                <i class="fab fa-facebook-f" > </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-tw mx-1" href="https://twitter.com/NahuQM">
+                <i class="fab fa-twitter"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-tw mx-1" href="https://www.instagram.com/nahuue_/">
+                <i class="fab fa-instagram"> </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+          <a href="index.html"> BurguerCity</a>
+        </div>
+       </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    function myfunction() {
+      alert("PEDIDO ENVIADO\nQUE LO DISFRUTES!");
+    }
+    </script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

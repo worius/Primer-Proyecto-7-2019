@@ -1,0 +1,133 @@
+body {
+    background-image: url("../images/fondowebcomida.jpg");
+}
+/*header*/
+header {
+    background-color: firebrick;
+}
+.logo {
+    height: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    max-width: 100%;
+}
+/*header*/
+/*navbar*/
+.navbar{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+/*navbar*/
+/*contenido web*/
+@media (max-width: 500px){
+    .textoinicio {
+        font-size: 20px;
+        text-align: center;
+        color: #d51b06;
+        text-shadow: 1px 1px 1px black;
+        padding-top:25px;
+        font-weight: bold;
+    }
+    .divheader {
+        height: 150px;
+    }
+    .h3-responsive {
+        text-shadow: 1.5px 1.5px 1.5px black;
+        color: #d51b06;
+        font-size: 15px;
+        font-weight: bold;
+        }
+    .texto-encima{ 
+        position: absolute;
+        top: 3%;
+        left: 13%;
+        color:#d51b06;
+        text-shadow: 1px 1px 1px black;
+        font-weight: bold;
+        font-size:15px;
+        background: rgba(0,0,0,.5);  
+        width: auto;
+        height: auto;
+        padding-left:2.5%;
+        padding-right: 2.5%;
+    }.textrelleno{
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: #3F3A3A;
+    }}
+@media (min-width: 500px){
+    .textoinicio {
+        font-size: 40px;
+        text-align: center;
+        color: #d51b06;
+        text-shadow: 1px 1px 1px black;
+        padding-top:25px;
+        font-weight: bold;
+    }
+    .divheader {
+        height: 200px;
+        }
+    .h3-responsive {
+        text-shadow: 1.5px 1.5px 1.5px black;
+        color: #d51b06;
+        font-weight: bold;
+    }
+    .texto-encima{
+        position: absolute;
+        top: 3%;
+        left: 13%;
+        color:#d51b06;
+        text-shadow: 1px 1px 1px black;
+        font-size:30px;
+        font-weight: bold;
+        background: rgba(0,0,0,.5);  
+        width: auto;
+        height: auto;
+        padding-left:2.5%;
+        padding-right: 2.5%;
+    }
+    .textrelleno{
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        color: #3F3A3A;
+    }}
+.slider3 {
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+.row {
+    text-align: center;
+}
+.burguers {
+    margin-bottom: 2%;
+    max-width:50%;
+}
+.burguerimg {
+    height: auto;
+    max-width: 100%;
+}
+.contacto {
+    text-align: center;
+}
+/*footer*/
+footer {
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 3%;
+}
